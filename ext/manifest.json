@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "TODODerictionary",
+  "version": "1.0",
+
+  "description": "Add new English words to your TODO list.",
+  "icons": {
+    "48": "icons/icons8-wishlist-48.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "applications": {
+    "gecko": {
+      "id": "TODODerictionary@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "38": "button/icons8-wishlist-38.png"
+    },
+    "default_title": "TODODerictionary",
+    "default_popup": "popup/index.html"
+  }
+}
