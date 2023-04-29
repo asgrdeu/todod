@@ -10,7 +10,7 @@
   },
   "background": {
     "scripts": [
-      "background.js"
+      "bg/background.js"
     ]
   },
   "applications": {
@@ -20,7 +20,11 @@
     }
   },
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "storage",
+    "find",
+    "tabs",
+    "<all_urls>"
   ],
   "browser_action": {
     "default_icon": {
